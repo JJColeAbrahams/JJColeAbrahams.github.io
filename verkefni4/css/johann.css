@@ -1,0 +1,86 @@
+body {
+	font-family: Calibri, Arial, sans-serif;
+	justify-content: center;
+}
+
+.haus {
+	background-color: #3399EE;
+	color: white;
+	justify-content: center;
+}
+
+.pixx {
+	width: 960px;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.fotur {
+	background-color: #3399EE;
+	color: white;
+}
+
+.flexx {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.fotur nav {
+	margin: 10px;
+}
+
+.efnishaus {
+	
+}
+
+.haegrihaus {
+	float: right;
+}
+
+.midjutexti {
+	text-align: center;
+}
+
+.midjutexti h1 {
+	color: #3399EE;
+}
+
+.grad {
+  background-image: linear-gradient(to bottom, white , #CC8822);
+}
+
+.efst {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+	background-color: black;
+	color: white;
+}
+
+.efnis {
+	margin-top: 0px;
+}
+
+.yfirlit {
+	display: flex;
+	justify-content: center;
+}
+
+.copy {
+	
+}
+
+.ljosbak {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+@media screen and (max-width: 960px) {
+	header {
+		display: flex;
+	}
+}
